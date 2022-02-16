@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="container">
+        <!-- logo code -->
+        <div class="logo">
+            <img src="img/logo-img1.jpeg">
+            <a href="#"><span class="ms">MS &nbsp;</span><span>Restaurant</span></a>
+        </div>
+
+        <!-- Nav Items code -->
+        <div class="nav-items">
+            <ul>
+                <li id="htab"><a href="#home" onclick="home()">Home</a></li>
+                <li id="dtab"><a href="#dishes" onclick="dishes()">Dishes</a></li>
+                <li id="rtab"><a href="#reviews" onclick="reviews()">Reviews</a></li>
+                <li id="atab"><a href="#about-us" onclick="aboutus()">About Us</a></li>
+                <li id="ctab"><a href="#contactus" onclick="contactus()">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Hamburger Button Code -->
+        <div class="hamburger">
+            <i class="fa fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="for-hamburger">
+        <ul>
+            <li id="htab"><a href="#home" onclick="home()">Home</a></li>
+            <li id="dtab"><a href="#dishes" onclick="dishes()">Dishes</a></li>
+            <li id="rtab"><a href="#reviews" onclick="reviews()">Reviews</a></li>
+            <li id="atab"><a href="#about-us" onclick="aboutus()">About Us</a></li>
+            <li id="ctab"><a href="#contactus" onclick="contactus()">Contact Us</a></li>
+        </ul>
+    </div>
+        
+  </nav>
+
+    <div class="website-body">
+        <div class="home body-elements" id="home" onmouseover="home()">
+            <div class="body-content">
+                <h3>Mom's Special</h3>
+                <h1>Restaurant</h1>
+            </div>
+        </div>
+        <div class="dishes  body-elements" id="dishes" onmouseover="dishes()">
+            <div class="body-content" onmouseover="LeftRightBtnD()" onmouseout="LeftRightBtnH()">
+                <h1>Todays Special Dishes</h1>
+                <div class="left-button">&lt;</div>
+                <div class="right-button">&gt;</div>
+                <div class="tsd-r1">
+                    <div class="dish d1 dish1">
+                        <img src="img/img1.jpg" alt="">
+                        <div class="dish-details">
+                            <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d2 dish2">
+                        <img src="img/img2.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d3 dish3">
+                        <img src="img/img3.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsd-r2">
+                    <div class="dish d1 dish4">
+                        <img src="img/img4.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d2 dish5">
+                        <img src="img/img5.jpg " alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d3 dish6">
+                        <img src="img/img6.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsd-r3">
+                    <div class="dish d1 dish7">
+                        <img src="img/img7.jpg" alt="">
+                        <div class="dish-details">
+                            <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d2 dish8">
+                        <img src="img/img8.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d3 dish9">
+                        <img src="img/img9.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tsd-r4">
+                    <div class="dish d1 dish10">
+                        <img src="img/img10.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d2 dish11">
+                        <img src="img/img11.jpg " alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                    <div class="dish d3 dish12">
+                        <img src="img/img12.jpg" alt="">
+                        <div class="dish-details">
+                          <h3><a href="#">Dish Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="reviews  body-elements" id="reviews" onmouseover="reviews()">
+            <div class="body-content" onmouseover="RLeftRightBtnD()" onmouseout="RLeftRightBtnH()">
+                <h1>Reviews</h1>
+                <div class="Rleft-button">&lt;</div>
+                <div class="Rright-button">&gt;</div>
+                <div class="reviews-r1">
+                    <div class="review d1 review1">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                    <div class="review d2 review2">
+                        <img src="img/p6.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                    <div class="review d3 review3">
+                        <img src="img/p2.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-r2">
+                    <div class="review d1 review4">
+                        <img src="img/p7.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                    <div class="review d2 review5">
+                        <img src="img/p3.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                    <div class="review d3 review6">
+                        <img src="img/p8.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-r3 ">
+                    <div class="review d1 review7">
+                        <img src="img/p4.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                    <div class="review d2 review8">
+                        <img src="img/p5.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                    <div class="review d3 review9">
+                        <img src="img/p9.jpg" alt="">
+                        <div class="review-details">
+                            <h3><a href="#">Customer Name</a></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <span><a href="#">Read More </a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about-us  body-elements" id="about-us" onmouseover="aboutus()">
+            <div class="body-content">
+                <h1>About Us</h1>
+                <div class="aboutus-content">
+                    <div class="aboutus-logo-img">
+                        <img src="img/logo-img2.png" alt="">
+                        <h3>Mom's Special</h3>
+                        <h1>Restaurant</h1>
+                    </div>
+                    <div class="content">
+                        <div class="resto-slideshow">
+                        </div>
+                        <div class="aboutus-details">
+                            <h3>About Us</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                 Et cupiditate asperiores alias harum dolore sequi odit quisquam eaque
+                                  ipsam sint totam saepe, natus, est modi neque quia nesciunt porro. 
+                                  Quibusdam reprehenderit molestias veritatis facilis autem, natus.</p>
+                                   <a href="#"><span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-us  body-elements" id="contactus" onmouseover="contactus()">
+            <div class="body-content">
+                <div class="contactus">
+                    <h1>Contact Us</h1>
+                    <form action="">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea placeholder="Message"></textarea>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-logo-box">
+                        <a href="#home"><h3>Mom's Special</h3></a>
+                        <a href="#"><h2>Restaurant</h2></a>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-navbar">
+                            <p><a href="#home" onclick="home()">Home</a></p>
+                            <p><a href="#dishes" onclick="dishes()">Dishes</a></p>
+                            <p><a href="#reviews" onclick="reviews()">Reviews</a></p>
+                            <p><a href="#about-us" onclick="aboutus()">About Us</a></p>
+                            <p><a href="#contact-uc" onclick="contactus()">Contact Us</a></p>
+                        </div>
+                        <div class="follow-us-box">
+                            <h3>Follow Us On</h3>
+                            <a href="#"><span class="insta"></span></a>
+                            <a href="#"><span class="twit"></span></a>
+                            <a href="#"><span class="fb"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
